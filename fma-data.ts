@@ -19,7 +19,7 @@ export const data: Character[] = [
       "https://www.giantbomb.com/a/uploads/original/1/19821/694167-armstrong.jpg",
   },
   {
-    name: "Alfonse Elrich",
+    name: "Alphonse Elrich",
     nickName: null,
     skillset: ["Being Loveable, Alchemy"],
     votes: 110,

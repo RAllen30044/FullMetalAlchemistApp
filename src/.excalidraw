@@ -33,8 +33,8 @@
     },
     {
       "type": "text",
-      "version": 28,
-      "versionNonce": 1254075808,
+      "version": 30,
+      "versionNonce": 1552127573,
       "isDeleted": false,
       "id": "Z99He3l0E-AHFT-Ylz7sS",
       "fillStyle": "hachure",
@@ -53,7 +53,7 @@
       "groupIds": [],
       "roundness": null,
       "boundElements": [],
-      "updated": 1687207250126,
+      "updated": 1687295965564,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -64,7 +64,7 @@
       "containerId": null,
       "originalText": "           App ",
       "lineHeight": 1.25,
-      "baseline": 32
+      "baseline": 31
     },
     {
       "type": "line",
@@ -144,8 +144,8 @@
     },
     {
       "type": "text",
-      "version": 13,
-      "versionNonce": 76774496,
+      "version": 15,
+      "versionNonce": 1340564859,
       "isDeleted": false,
       "id": "JpDjjSS7fJNX7ebbDFLHZ",
       "fillStyle": "hachure",
@@ -164,7 +164,7 @@
       "groupIds": [],
       "roundness": null,
       "boundElements": [],
-      "updated": 1687207250127,
+      "updated": 1687295965565,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -175,7 +175,7 @@
       "containerId": "MkPHOjiDQeZC7h5rUcCBc",
       "originalText": "Header",
       "lineHeight": 1.25,
-      "baseline": 32
+      "baseline": 31
     },
     {
       "type": "line",
@@ -255,8 +255,8 @@
     },
     {
       "type": "text",
-      "version": 24,
-      "versionNonce": 1572403616,
+      "version": 26,
+      "versionNonce": 281543605,
       "isDeleted": false,
       "id": "trogTsTcObvJgPugoJlKj",
       "fillStyle": "hachure",
@@ -275,7 +275,7 @@
       "groupIds": [],
       "roundness": null,
       "boundElements": [],
-      "updated": 1687207250128,
+      "updated": 1687295965567,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -286,7 +286,7 @@
       "containerId": "BK4Xs7KdYBVCLesdao2bH",
       "originalText": "Character\nRatings",
       "lineHeight": 1.25,
-      "baseline": 77
+      "baseline": 76
     },
     {
       "type": "line",
@@ -366,8 +366,8 @@
     },
     {
       "type": "text",
-      "version": 197,
-      "versionNonce": 832893024,
+      "version": 199,
+      "versionNonce": 1114832411,
       "isDeleted": false,
       "id": "9g7R8I7cfg33_aLL_62Rh",
       "fillStyle": "hachure",
@@ -386,7 +386,7 @@
       "groupIds": [],
       "roundness": null,
       "boundElements": [],
-      "updated": 1687207250129,
+      "updated": 1687295965568,
       "link": null,
       "locked": false,
       "fontSize": 36,
@@ -397,7 +397,7 @@
       "containerId": "8XKXdn4RLeYNC1MVaqLI3",
       "originalText": "Character\nCards",
       "lineHeight": 1.25,
-      "baseline": 77
+      "baseline": 76
     }
   ],
   "appState": {

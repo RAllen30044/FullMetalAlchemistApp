@@ -3,14 +3,14 @@ import { Component, ReactNode } from "react";
 import { Character } from "../../../../fma-data";
 
 interface PropTypes {
-  data: Character[];
+  characters: Character[];
 }
 
 export class CharacterCards extends Component<PropTypes> {
   render(): ReactNode {
-    const { data } = this.props;
+    const { characters } = this.props;
 
-    const aToZSort = data.sort((a, b) => {
+    const aToZSort = structuredClone(characters).sort((a, b) => {
       if (a.name > b.name) {
         return 1;
       } else {
@@ -19,19 +19,16 @@ export class CharacterCards extends Component<PropTypes> {
     });
     return (
       <section id="character-cards">
-        {aToZSort.map((fmaData) => {
+        {aToZSort.map((character) => {
+          const { name, nickName, imageUrl, background } = character;
           return (
-            <div className="card" key={fmaData.name}>
+            <div className="card" key={name}>
               <div className="card-titles">
-                <h3>
-                  {fmaData.name === "Alfonse Elrich"
-                    ? "Alphonse Elrich"
-                    : fmaData.name}
-                </h3>
-                <h4>{fmaData.nickName}</h4>
+                <h3>{name}</h3>
+                <h4>{nickName}</h4>
               </div>
-              <img src={fmaData.imageUrl} alt="" />
-              <p>{fmaData.background}</p>
+              <img src={imageUrl} alt={`Image of ${name}`} />
+              <p>{background}</p>
             </div>
           );
         })}
